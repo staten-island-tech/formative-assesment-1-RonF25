@@ -1,13 +1,22 @@
-body {
-  background-image: liner linear-gradient( to right bottom,
-  rgba(255, 90, 9, 0.5),
-  rgba(255, 200, 10, 0.5)
-  );
 
-  
-
-}
 h1{
    text-transform: uppercase;
+}
+div {
+  height: 100vh;
+ 
+}
+img{
+filter: blur(3px);
+}
+body{
+  background-image: linear-gradient(
+    to right bottom,
+  rgba(255, 0, 9, 0.5),
+  rgba(20, 20, 255, 0.5)
+  ), 
+  url(New-York-Giants-wordmark.jpg);
+  background-size: cover;
+  text-align: center;
 }
 
